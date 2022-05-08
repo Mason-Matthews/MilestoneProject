@@ -19,7 +19,7 @@ body {
 
   .snake {
     
-    background: url('./assets/snakeHeadUp.png');
+    background: url('./assets/snakeHeadLeft.png');
     background-size: 100%;
   }
 
