@@ -19,13 +19,14 @@ body {
 
   .snake {
     
-    background-color: hsl(108, 100%, 50%);
-    border: .25vmin solid black;
+    background: url('./assets/snakeHeadUp.png');
+    background-size: 100%;
   }
 
   .apple {
     
     background: url('./assets/apple.png');
+    background-size: 115%;
     
 
     
