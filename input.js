@@ -1,6 +1,7 @@
 let inputDirection = { x: 0, y: 0 }
 let lastInputDirection = { x: 0, y: 0 }
 
+//loop to check key stroke events
 window.addEventListener('keydown', e => {
   switch (e.key) {
     case 'w':
@@ -24,6 +25,7 @@ window.addEventListener('keydown', e => {
   }
 })
 
+//function to get snake direction
 export function getInputDirection() {
   lastInputDirection = inputDirection
   return inputDirection
