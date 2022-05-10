@@ -3,23 +3,24 @@
   text-align: center;
   display:block;
   margin-top: 0;
+  font-family: "Comic Sans", Sans-serif;
 }
 
 body {
-    height: 100vh;
+    height: 80vh;
     width: 100vw;
     display: block;
     justify-content: center;
     align-items: center;
     
-    background-color: rgba(158, 227, 255, 0.425);
+    background-color: rgba(134, 237, 255, 0.425);
     
   }
   
   #rules{
     display: block;
     text-align: center;
-  
+    font-family: "Lucida Console", "Courier New", monospace;
   }
 
   #game-board {
