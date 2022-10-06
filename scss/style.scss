@@ -1,0 +1,70 @@
+
+//tokens
+$apple: red;
+$snake: #006b05;
+$light_blue: rgba(134, 237, 255, 0.425);
+
+//background
+$color-primary: $light_blue;
+
+//text
+$font: "Comic Sans", Sans-serif;
+
+#title{
+    text-align: center;
+    display:block;
+    margin-top: 0;
+    font-family: $font;
+  }
+  
+  body {
+      height: 80vh;
+      width: 100vw;
+      display: block-inline;
+      justify-content: center;
+      align-items: center;
+      
+      background-color: $color-primary;
+
+
+      h1{
+        
+        font-family: "Lucida Console", "Courier New", monospace;
+        text-shadow: 2px 2px $snake;
+      }
+      
+      #rules{
+        display:block;
+        text-align: center;
+        font-family: $font;
+      }
+
+      #game-board {
+      
+        background-image: url('../assets/grass.jpg');
+        width: 80vmin;
+        height: 80vmin;
+        display: grid;
+        grid-template-rows: repeat(21, 1fr);
+        grid-template-columns: repeat(21, 1fr);
+        margin:0 auto;
+        background-size: 60%;
+        filter: drop-shadow(16px 16px 20px black);
+      }
+    }
+    
+    .snake {
+      background-color: $snake;
+      border: .25vmin solid black;
+      background-size: 100%;
+    }
+  
+    .apple {
+      
+      background-color: $apple;
+      border: .25vmin solid darkgreen;
+      background-size: 100%;
+  
+      
+    }
+  

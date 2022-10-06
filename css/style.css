@@ -1,0 +1,53 @@
+
+#title{
+    text-align: center;
+    display:block;
+    margin-top: 0;
+    font-family: "Comic Sans", Sans-serif;
+  }
+  
+  body {
+      height: 80vh;
+      width: 100vw;
+      display: block;
+      justify-content: center;
+      align-items: center;
+      
+      background-color: rgba(134, 237, 255, 0.425);
+      
+    }
+    
+    #rules{
+      display: block;
+      text-align: center;
+      font-family: "Lucida Console", "Courier New", monospace;
+    }
+  
+    #game-board {
+      
+      background-image: url('../assets/grass.jpg');
+      width: 80vmin;
+      height: 80vmin;
+      display: grid;
+      grid-template-rows: repeat(21, 1fr);
+      grid-template-columns: repeat(21, 1fr);
+      margin:0 auto;
+      background-size: 60%;
+      filter: drop-shadow(16px 16px 20px black);
+    }
+    
+    .snake {
+      background-color: green;
+      border: .25vmin solid black;
+      background-size: 100%;
+    }
+  
+    .apple {
+      
+      background-color: red;
+      border: .25vmin solid darkgreen;
+      background-size: 100%;
+  
+      
+    }
+  

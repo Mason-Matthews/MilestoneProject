@@ -16,7 +16,7 @@ function main(currentTime) {
     }
     return
   }
-    
+    //loop to run the game
   window.requestAnimationFrame(main)
 
   //"tick" speed 
@@ -28,7 +28,7 @@ function main(currentTime) {
   update()
   draw()
 }
-//loop to run the game
+//initial run of the game
 window.requestAnimationFrame(main)
 
 //function to update objects
